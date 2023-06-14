@@ -20,7 +20,7 @@ In order to avoid code duplication in child classes we will implement an interfa
 
 In the parent class “Vehicle” we will have constructor injection where we will pass the type of object which child classes want to create. Refer below the class diagram of the system.
 
-![alt text]([https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true](https://github.com/PiyushSharma99/System-Design-Patterns/blob/2a3163d00abc1f24fcb5290eedd1a6423a664ba3/StrategyPattern/StrategyDesign.png?raw=true))
+![alt text](https://github.com/PiyushSharma99/System-Design-Patterns/blob/main/StrategyPattern/StrategyDesign.png)
 
 
 
