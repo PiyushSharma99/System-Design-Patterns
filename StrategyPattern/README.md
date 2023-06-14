@@ -14,7 +14,7 @@ In the Strategy Design pattern we create strategy so that child classes do not h
 
 In order to avoid code duplication in child classes we will implement an interface “DriveStrategy” which will have a “HAS-A” relationship with the parent class “Vehicle”.
 
-2 classes will implement DriveStrategy interface. NormalDriveStrategy and SportsDriveStrategy.
+Two classes will implement DriveStrategy interface i.e. NormalDriveStrategy and SportsDriveStrategy.
 
 In the parent class “Vehicle” we will have constructor injection where we will pass the type of object which child classes want to create. Refer below the class diagram of the system.
 
