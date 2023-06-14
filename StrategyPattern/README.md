@@ -4,11 +4,11 @@ In the Strategy Design pattern we create strategy so that child classes do not h
 
 ### Conditions to apply this pattern
 
-There is a parent class which has an IS-A relationship with child classes.
-Suppose there is a parent class “Vehicle”. It has 3 child classes PassengerVehicle , OffRoadVehicle and SportyVehicle.
-Passenger vehicles just need the drive capability which is present in Vehicle class .
-OffRoadVehicle and SportyVehicle classes need special drive capabilities. They both need the same special drive capabilities. Both classes have the same code implemented in their own classes.
-This situation leads to code duplication and it's not scalable. So we must implement the below solution of Strategy Design Pattern.
++ There is a parent class which has an IS-A relationship with child classes.
++ Suppose there is a parent class “Vehicle”. It has 3 child classes PassengerVehicle , OffRoadVehicle and SportyVehicle.
+  - Passenger vehicles just need the drive capability which is present in Vehicle class .
+  - OffRoadVehicle and SportyVehicle classes need special drive capabilities. They both need the same special drive capabilities. Both classes have the same code implemented in their own classes.
+  - **This situation leads to code duplication and it's not scalable**. So we must implement the below solution of Strategy Design Pattern.
 
 ### Solution
 
@@ -20,4 +20,4 @@ In the parent class “Vehicle” we will have constructor injection where we wi
 
 ### Class Diagram
 
-![alt text](https://github.com/PiyushSharma99/System-Design-Patterns/blob/main/StrategyPattern/StrategyDesign.png)
+![This is a class diagram of Strategy Pattern](https://github.com/PiyushSharma99/System-Design-Patterns/blob/main/StrategyPattern/StrategyDesign.png)
